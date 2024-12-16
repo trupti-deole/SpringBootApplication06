@@ -49,4 +49,10 @@ public class HomeController {
 		m.addAttribute("data",emp);
 		return "myregsuccess";
 	}
+	@RequestMapping(value="/msg")
+	public String msgPage()
+	{
+		return null;
+	}
+	
 }
